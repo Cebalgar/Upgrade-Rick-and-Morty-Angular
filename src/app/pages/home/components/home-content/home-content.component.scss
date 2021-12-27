@@ -1,0 +1,37 @@
+.home{
+  width: 100%;
+  display: flex;
+  margin-top: 50px;
+
+
+  .imagen{
+    position: relative;
+    display: flex;
+    width: 50%;
+    justify-content: left;
+    align-items: flex-start;
+    flex-direction: row;
+    img{
+      width: 100%;
+    }
+
+  }
+  .texto{
+    width:25%;
+    height: 200px;
+    justify-content: right;
+    margin-left: 50px;
+    padding: 20px;
+    align-items: flex-end;
+
+    p{
+      text-align: justify;
+      font-family: fantasy,cursive;
+      font-size:medium;
+      color:rgb(27, 4, 70);
+
+
+    }
+  }
+
+}

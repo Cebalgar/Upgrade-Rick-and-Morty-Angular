@@ -1,0 +1,10 @@
+<h2>EPISODES</h2>
+<div class="container">
+<div class="card" *ngFor="let episode of episodesList">
+  <p>Number: {{episode.id}}</p>
+  <h3>{{episode.name | titlecase }}</h3>
+  <p>Episode: {{episode.episode}}</p>
+  <p>Air-Date: {{episode.air_date}}</p>
+
+</div>
+</div>

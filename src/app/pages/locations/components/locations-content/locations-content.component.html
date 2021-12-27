@@ -1,0 +1,12 @@
+<h2>LOCATIONS</h2>
+
+<div class="container">
+<div class="card" *ngFor="let location of locations">
+
+    <img src="https://www.jotdown.es/wp-content/uploads/2019/05/oie_hCVeLPjJuT8y.jpg" alt="">
+
+  <h3>Planet: {{location.name | titlecase }}</h3>
+  <p>Type: {{location.type}}</p>
+  <p>Dimension: {{location.dimension}}</p>
+</div>
+</div>
